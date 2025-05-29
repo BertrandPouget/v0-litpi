@@ -1,6 +1,6 @@
 Persona,Bilancio,,Creditore,Soldi,Debitori,Data,Causale
-Andrea,"15,83666667",,,,,,
-Marco,"-4,928333333",,,,,,
+Andrea,"15,79666667",,,,,,
+Marco,"-4,888333333",,,,,,
 Martino,"-10,94833333",,,,,,
-,,,,,,,
+,,,Marco,"0,04",Andrea,"29/05/2025, 15:43",test v0
 ,,,Marco,"0,01",Marco,29/05/2025,test v0
