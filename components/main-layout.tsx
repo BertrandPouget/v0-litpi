@@ -27,9 +27,6 @@ export function MainLayout({ children }: { children: React.ReactNode }) {
         )}
       </div>
       <main>{children}</main>
-      <footer className="py-6 text-center text-muted-foreground">
-        <p>Made with ❤️ for the Litpi household</p>
-      </footer>
       <Toaster />
     </div>
   )
