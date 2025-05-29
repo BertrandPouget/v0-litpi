@@ -1,7 +1,8 @@
 Persona,Bilancio,,Creditore,Soldi,Debitori,Data,Causale
-Andrea,"15,83666667",,Marco,"3,25","Marco, Martino","05/10/2024, 11:10",Sapone mani
-Marco,"-4,928333333",,Marco,0,Marco,"04/10/2024, 17:51",Test app
+Andrea,"15,83666667",,Andrea,"0,06",Andrea,"29/05/2025, 16:21",test v0
+Marco,"-4,928333333",,Marco,"3,25","Marco, Martino","05/10/2024, 11:10",Sapone mani
 Martino,"-10,94833333",,Marco,0,Marco,"04/10/2024, 17:51",Test app
+,,,Marco,0,Marco,"04/10/2024, 17:51",Test app
 ,,,Marco,"7,8","Marco, Martino","29/09/2024, 13:32",Lavatrice + Scottex
 ,,,Martino,"9,9","Marco, Martino","09/09/2024, 07:37",Olio
 ,,,Marco,"5,15","Marco, Martino, Andrea","09/09/2024, 06:53",Sacchetti
@@ -21,7 +22,7 @@ Martino,"-10,94833333",,Marco,0,Marco,"04/10/2024, 17:51",Test app
 ,,,Andrea,"13,8","Andrea, Marco, Martino","25/05/2024, 10:09",Olio e cialde caffè
 ,,,Andrea,3,"Martino, Marco, Andrea","17/05/2024, 08:52",Detersivo per lavastoviglie e sale lavastoviglie
 ,,,Marco,"2,8","Andrea, Marco, Martino","15/05/2024, 18:22",Sacchetti umido
-,,,Martino,10,Andrea,"13/05/2024, 21:06",Burger king 
+,,,Martino,10,Andrea,"13/05/2024, 21:06",Burger king
 ,,,Andrea,"6,5",Martino,"12/05/2024, 11:08",Colazione
 ,,,Martino,"9,6","Andrea, Marco, Martino",12/05/2024,Spesa Casa
 ,,,Martino,10,"Andrea, Marco",29/04/2024,Gelato
