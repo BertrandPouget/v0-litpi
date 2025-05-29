@@ -1,0 +1,38 @@
+Persona,Bilancio,,Creditore,Soldi,Debitori,Data,Causale
+Andrea,"15,83666667",,Marco,"3,25","Marco, Martino","05/10/2024, 11:10",Sapone mani
+Marco,"-4,928333333",,Marco,0,Marco,"04/10/2024, 17:51",Test app
+Martino,"-10,94833333",,Marco,0,Marco,"04/10/2024, 17:51",Test app
+,,,Marco,"7,8","Marco, Martino","29/09/2024, 13:32",Lavatrice + Scottex
+,,,Martino,"9,9","Marco, Martino","09/09/2024, 07:37",Olio
+,,,Marco,"5,15","Marco, Martino, Andrea","09/09/2024, 06:53",Sacchetti
+,,,Martino,"5,28",Andrea,"02/08/2024, 17:10",Bilancio Tricount annullato
+,,,Martino,"8,93",Marco,"02/08/2024, 17:09",Bilancio Tricount annullato
+,,,Andrea,"5,28",Martino,"02/08/2024, 16:26",Bilancio Tricount
+,,,Marco,"8,93",Martino,"02/08/2024, 16:26",Bilancio Tricount
+,,,Andrea,6,"Andrea, Marco, Martino","19/07/2024, 08:56",Scottex e carta igenica
+,,,Andrea,"15,5","Marco, Martino, Andrea","22/06/2024, 18:29","Olio, caffè, scottex"
+,,,Martino,14,"Andrea, Marco, Martino","20/06/2024, 08:58",Carta igienica x2
+,,,Martino,14,"Andrea, Marco, Martino","20/06/2024, 08:58",Annullamento della entry precedente perchè Tino è un babbo
+,,,Marco,14,"Andrea, Marco, Martino","20/06/2024, 08:58",Annullamento della entry precedente perchè Tino è un babbo
+,,,Andrea,14,"Andrea, Marco, Martino","20/06/2024, 08:56",Carta igienica x2
+,,,Marco,"6,25","Marco, Andrea, Martino","19/06/2024, 18:02",Lavastoviglie + sacchi gialli
+,,,Marco,0,Marco,"17/06/2024, 07:44",Test app
+,,,Andrea,"8,9","Andrea, Marco, Martino","02/06/2024, 20:11",Cialde caffè e pod per lavatrice
+,,,Andrea,"13,8","Andrea, Marco, Martino","25/05/2024, 10:09",Olio e cialde caffè
+,,,Andrea,3,"Martino, Marco, Andrea","17/05/2024, 08:52",Detersivo per lavastoviglie e sale lavastoviglie
+,,,Marco,"2,8","Andrea, Marco, Martino","15/05/2024, 18:22",Sacchetti umido
+,,,Martino,10,Andrea,"13/05/2024, 21:06",Burger king 
+,,,Andrea,"6,5",Martino,"12/05/2024, 11:08",Colazione
+,,,Martino,"9,6","Andrea, Marco, Martino",12/05/2024,Spesa Casa
+,,,Martino,10,"Andrea, Marco",29/04/2024,Gelato
+,,,Marco,"2,9","Martino, Andrea, Marco",28/04/2024,Carta igienica
+,,,Andrea,10,"Andrea, Marco, Martino",26/04/2024,Olio extravergine d'oliva
+,,,Andrea,"1,5",Martino,21/04/2024,Gelato PAM
+,,,Andrea,"2,8","Andrea, Marco, Martino",21/04/2024,Pepe
+,,,Marco,3,Andrea,17/04/2024,MAG
+,,,Andrea,"6,9","Martino, Andrea, Marco",11/04/2024,Sacchetti dell'umido e carta igenica
+,,,Andrea,"4,99","Andrea, Marco, Martino",11/04/2024,Pod per la lavatrice
+,,,Marco,"1,85","Andrea, Marco, Martino",08/04/2024,Scottex
+,,,Martino,"9,45","Andrea, Marco, Martino",06/04/2024,Sale e olio
+,,,Martino,"14,7","Andrea, Marco, Martino",06/04/2024,"Cialde, carta igenica"
+,,,Marco,"25,65","Andrea, Marco, Martino",03/04/2024,Filtri Brita
