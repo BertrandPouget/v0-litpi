@@ -1,7 +1,8 @@
 Persona,Bilancio,,Creditore,Soldi,Debitori,Data,Causale
-Andrea,"-0,0033333300000002453",,Marco,100,"Marco, Martino","30/05/2025, 17:52",Test
-Marco,"68,611666667",,Marco,"18,61",Martino,"30/05/2025, 17:51",Panino Guzzo
-Martino,"-68,64833333",,Martino,"10,91",Andrea,"30/05/2025, 17:51",Azzeramento Andre
+Andrea,"-0,0033333300000002453",,Martino,100,"Marco, Martino","30/05/2025, 17:52",Test
+Marco,"18,611666666999994",,Marco,100,"Marco, Martino","30/05/2025, 17:52",Test
+Martino,"-18,64833333",,Marco,"18,61",Martino,"30/05/2025, 17:51",Panino Guzzo
+,,,Martino,"10,91",Andrea,"30/05/2025, 17:51",Azzeramento Andre
 ,,,Marco,"4,93",Andrea,"30/05/2025, 17:50",Azzeramento Andre
 ,,,Marco,"3,25","Marco, Martino","05/10/2024, 11:10",Sapone mani
 ,,,Marco,0,Marco,"04/10/2024, 17:51",Test app
