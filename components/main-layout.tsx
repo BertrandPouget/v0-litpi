@@ -22,7 +22,7 @@ export function MainLayout({ children }: { children: React.ReactNode }) {
     const readCharacterCookie = () => {
       const character = document.cookie
         .split("; ")
-        .find((row) => row.startsWith("character=")) // Corretto il nome del cookie
+        .find((row) => row.startsWith("character="))
         ?.split("=")[1]
       setSelectedCharacter(character || null)
     }
@@ -43,46 +43,38 @@ export function MainLayout({ children }: { children: React.ReactNode }) {
     router.push("/")
   }
 
-  const isDashboard = pathname.includes("/dashboard") // Più flessibile
-
-  console.log("Debug:", { pathname, isDashboard, selectedCharacter, mounted }) // Debug
+  const isDashboard = pathname.includes("/dashboard")
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-secondary/50">
-      {/* Header con bottoni */}
-      <div className="flex justify-between p-4">
-        {/* Foto profilo in alto a sinistra (solo nella dashboard) */}
-        <div className="w-10 h-10">
-          {isDashboard && selectedCharacter && mounted ? (
-            <Button
-              variant="outline"
-              size="icon"
-              onClick={handleProfileClick}
-              className="w-10 h-10 rounded-full overflow-hidden p-0 border-2"
-              style={{
-                backgroundImage: `url(/images/${selectedCharacter}.png)`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-              }}
-              aria-label={`Logout da ${selectedCharacter}`}
-            >
-              <span className="sr-only">Torna alla selezione personaggio</span>
-            </Button>
-          ) : (
-            <div className="w-10 h-10" /> // Placeholder per mantenere lo spazio
-          )}
+      {/* Posizionamento assoluto per i bottoni */}
+      {isDashboard && selectedCharacter && mounted && (
+        <div className="absolute top-4 left-4 z-10">
+          <Button
+            variant="outline"
+            size="icon"
+            onClick={handleProfileClick}
+            className="w-10 h-10 rounded-full overflow-hidden p-0 border-2"
+            style={{
+              backgroundImage: `url(/images/${selectedCharacter}.png)`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+            aria-label={`Logout da ${selectedCharacter}`}
+          >
+            <span className="sr-only">Torna alla selezione personaggio</span>
+          </Button>
         </div>
+      )}
 
-        {/* Toggle tema in alto a destra */}
-        <div>
-          {mounted && (
-            <Button variant="outline" size="icon" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
-              {theme === "dark" ? <SunIcon className="h-5 w-5" /> : <MoonIcon className="h-5 w-5" />}
-              <span className="sr-only">Toggle theme</span>
-            </Button>
-          )}
-        </div>
+      <div className="absolute top-4 right-4 z-10">
+        {mounted && (
+          <Button variant="outline" size="icon" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+            {theme === "dark" ? <SunIcon className="h-5 w-5" /> : <MoonIcon className="h-5 w-5" />}
+            <span className="sr-only">Toggle theme</span>
+          </Button>
+        )}
       </div>
 
       <main>{children}</main>
