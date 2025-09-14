@@ -1,7 +1,8 @@
 Persona,Bilancio,,Creditore,Soldi,Debitori,Data,Causale
-Andrea,0,,Marco,"15,67",Martino,"18/07/2025, 17:23",Greco
-Marco,"15,67",,Martino,"18,61",Marco,"08/06/2025, 09:39",PayPal
-Martino,"-15,67",,Martino,"0,04",Martino,"30/05/2025, 17:52",Boh
+Andrea,0,,Martino,"15,67",Marco,"14/09/2025, 17:44",Greco ripagato
+Marco,0,,Marco,"15,67",Martino,"18/07/2025, 17:23",Greco
+Martino,0,,Martino,"18,61",Marco,"08/06/2025, 09:39",PayPal
+,,,Martino,"0,04",Martino,"30/05/2025, 17:52",Boh
 ,,,Martino,100,"Marco, Martino","30/05/2025, 17:52",Test
 ,,,Marco,100,"Marco, Martino","30/05/2025, 17:52",Test
 ,,,Marco,"18,61",Martino,"30/05/2025, 17:51",Panino Guzzo
