@@ -1,7 +1,8 @@
 Persona,Bilancio,,Creditore,Soldi,Debitori,Data,Causale
-Andrea,0,,Martino,"21,24",Marco,"29/09/2025, 08:19",Guzzo
-Marco,"-7,105427357601002e-15",,Marco,"42,48","Martino, Marco","22/09/2025, 17:40",Guzzo
-Martino,"-3,552713678800501e-15",,Martino,"25,34",Marco,"17/09/2025, 08:52",Takeaways
+Andrea,0,,Marco,"31,05","Marco, Martino","03/10/2025, 17:47",Pizza
+Marco,"15,524999999999993",,Martino,"21,24",Marco,"29/09/2025, 08:19",Guzzo
+Martino,"-15,525000000000004",,Marco,"42,48","Martino, Marco","22/09/2025, 17:40",Guzzo
+,,,Martino,"25,34",Marco,"17/09/2025, 08:52",Takeaways
 ,,,Marco,"25,51","Martino, Marco","15/09/2025, 18:45",Greco
 ,,,Marco,"25,17","Martino, Marco","14/09/2025, 18:56",Pizza
 ,,,Martino,"15,67",Marco,"14/09/2025, 17:44",Greco ripagato
