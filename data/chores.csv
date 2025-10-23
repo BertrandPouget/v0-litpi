@@ -1,19 +1,20 @@
 Compito,Valore,Andrea,Marco,Martino,,Persona,Quando,Cosa
-Lavastoviglie (carico),1,45,90,64,,marco,"21/10/2025, 11:25",Indifferenziato
-Lavastoviglie (scarico),1,24,91,91,,marco,"21/10/2025, 11:24",Spazzatura fuori
-Superfici,2,13,13,19,,marco,"20/10/2025, 18:58",Lavastoviglie (carico)
-WC,3,3,9,6,,marco,"19/10/2025, 13:16",Lavastoviglie (scarico)
-Lavandino,2,5,7,8,,martino,"17/10/2025, 12:30","WC, Indifferenziato, Spazzatura fuori"
-Bidet,2,3,8,3,,martino,"17/10/2025, 11:53","Lavastoviglie (carico), Lavastoviglie (scarico)"
-Doccia,2,0,0,4,,marco,"16/10/2025, 19:03","Lavastoviglie (carico), Lavandino"
-Pavimento (aspirazione),1,0,10,4,,martino,"16/10/2025, 08:29",Lavastoviglie (scarico)
-Pavimento (pulizia),3,1,0,5,,marco,"15/10/2025, 19:09",Superfici
-Plastica,1,10,34,46,,marco,"15/10/2025, 15:00","Spazzatura fuori 2, Spazzatura fuori, Plastica"
-Indifferenziato,1,6,16,13,,martino,"15/10/2025, 11:26",Lavastoviglie (carico)
-Spazzatura fuori,2,15,65,79,,martino,"15/10/2025, 07:43",Lavastoviglie (scarico)
-Spazzatura fuori 2,1,2,18,22,,martino,"13/10/2025, 19:20",Lavastoviglie (carico)
-Spazzatura fuori 3,1,0,4,4,,martino,"13/10/2025, 11:38",Lavastoviglie (scarico)
-Assente,1,13,33,7,,marco,"12/10/2025, 20:53",Pavimento (aspirazione)
+Lavastoviglie (carico),1,45,90,65,,martino,"23/10/2025, 06:47",Lavastoviglie (carico)
+Lavastoviglie (scarico),1,24,91,91,,marco,"21/10/2025, 11:25",Indifferenziato
+Superfici,2,13,13,19,,marco,"21/10/2025, 11:24",Spazzatura fuori
+WC,3,3,9,6,,marco,"20/10/2025, 18:58",Lavastoviglie (carico)
+Lavandino,2,5,7,8,,marco,"19/10/2025, 13:16",Lavastoviglie (scarico)
+Bidet,2,3,8,3,,martino,"17/10/2025, 12:30","WC, Indifferenziato, Spazzatura fuori"
+Doccia,2,0,0,4,,martino,"17/10/2025, 11:53","Lavastoviglie (carico), Lavastoviglie (scarico)"
+Pavimento (aspirazione),1,0,10,4,,marco,"16/10/2025, 19:03","Lavastoviglie (carico), Lavandino"
+Pavimento (pulizia),3,1,0,5,,martino,"16/10/2025, 08:29",Lavastoviglie (scarico)
+Plastica,1,10,34,46,,marco,"15/10/2025, 19:09",Superfici
+Indifferenziato,1,6,16,13,,marco,"15/10/2025, 15:00","Spazzatura fuori 2, Spazzatura fuori, Plastica"
+Spazzatura fuori,2,15,65,79,,martino,"15/10/2025, 11:26",Lavastoviglie (carico)
+Spazzatura fuori 2,1,2,18,22,,martino,"15/10/2025, 07:43",Lavastoviglie (scarico)
+Spazzatura fuori 3,1,0,4,4,,martino,"13/10/2025, 19:20",Lavastoviglie (carico)
+Assente,1,13,33,7,,martino,"13/10/2025, 11:38",Lavastoviglie (scarico)
+,,,,,,marco,"12/10/2025, 20:53",Pavimento (aspirazione)
 ,,,,,,marco,"12/10/2025, 11:30",Spazzatura fuori
 ,,,,,,marco,"12/10/2025, 10:01","Lavastoviglie (carico), Indifferenziato"
 ,,,,,,martino,"10/10/2025, 11:30","Lavastoviglie (scarico), Plastica, Spazzatura fuori"
