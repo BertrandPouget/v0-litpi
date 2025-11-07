@@ -6,8 +6,8 @@ WC,3,3,9,6,,marco,"21/10/2025, 11:25",Indifferenziato
 Lavandino,2,5,7,8,,marco,"21/10/2025, 11:24",Spazzatura fuori
 Bidet,2,3,8,3,,marco,"20/10/2025, 18:58",Lavastoviglie (carico)
 Doccia,2,0,0,4,,marco,"19/10/2025, 13:16",Lavastoviglie (scarico)
-Pavimento (aspirazione),1,0,10,4,,martino,"17/10/2025, 12:30","WC, Indifferenziato, Spazzatura fuori"
-Pavimento (pulizia),3,1,0,5,,martino,"17/10/2025, 11:53","Lavastoviglie (carico), Lavastoviglie (scarico)"
+Pavimento (aspirazione),2,0,10,4,,martino,"17/10/2025, 12:30","WC, Indifferenziato, Spazzatura fuori"
+Pavimento (pulizia),2,1,0,5,,martino,"17/10/2025, 11:53","Lavastoviglie (carico), Lavastoviglie (scarico)"
 Plastica,1,10,35,46,,marco,"16/10/2025, 19:03","Lavastoviglie (carico), Lavandino"
 Indifferenziato,1,6,16,13,,martino,"16/10/2025, 08:29",Lavastoviglie (scarico)
 Spazzatura fuori,2,15,65,79,,marco,"15/10/2025, 19:09",Superfici
