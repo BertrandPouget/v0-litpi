@@ -1,7 +1,17 @@
 Persona,Bilancio,,Creditore,Soldi,Debitori,Data,Causale
-Andrea,"-0,00",,Martino,"0,04",Martino,"30/05/2025, 17:52",Boh
-Marco,"18,61",,Martino,100,"Marco, Martino","30/05/2025, 17:52",Test
-Martino,"-18,61",,Marco,100,"Marco, Martino","30/05/2025, 17:52",Test
+Andrea,0,,Martino,"15,53",Marco,"13/10/2025, 19:23",Guzzo
+Marco,"-0,005000000000006111",,Marco,"31,05","Marco, Martino","03/10/2025, 17:47",Pizza
+Martino,"0,0049999999999954525",,Martino,"21,24",Marco,"29/09/2025, 08:19",Guzzo
+,,,Marco,"42,48","Martino, Marco","22/09/2025, 17:40",Guzzo
+,,,Martino,"25,34",Marco,"17/09/2025, 08:52",Takeaways
+,,,Marco,"25,51","Martino, Marco","15/09/2025, 18:45",Greco
+,,,Marco,"25,17","Martino, Marco","14/09/2025, 18:56",Pizza
+,,,Martino,"15,67",Marco,"14/09/2025, 17:44",Greco ripagato
+,,,Marco,"15,67",Martino,"18/07/2025, 17:23",Greco
+,,,Martino,"18,61",Marco,"08/06/2025, 09:39",PayPal
+,,,Martino,"0,04",Martino,"30/05/2025, 17:52",Boh
+,,,Martino,100,"Marco, Martino","30/05/2025, 17:52",Test
+,,,Marco,100,"Marco, Martino","30/05/2025, 17:52",Test
 ,,,Marco,"18,61",Martino,"30/05/2025, 17:51",Panino Guzzo
 ,,,Martino,"10,91",Andrea,"30/05/2025, 17:51",Azzeramento Andre
 ,,,Marco,"4,93",Andrea,"30/05/2025, 17:50",Azzeramento Andre

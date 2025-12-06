@@ -1,26 +1,22 @@
-import { MainLayout } from "@/components/main-layout";
-import { NavigationTabs } from "@/components/navigation-tabs";
-import { redirect } from "next/navigation";
-import { cookies } from "next/headers";
+import { cookies } from "next/headers"
+import { redirect } from "next/navigation"
+import { NavigationTabs } from "@/components/navigation-tabs"
+import { MainLayout } from "@/components/main-layout"
 
-export default async function Dashboard() {
-  // Recupera il cookie in modo asincrono
-  const cookieStore = await cookies();
-  const character = cookieStore.get("character")?.value;
+export default async function DashboardPage() {
+  const cookieStore = await cookies()
+  const character = cookieStore.get("character")
 
-  // Se non c'è il cookie, reindirizza alla home
   if (!character) {
-    redirect("/");
+    redirect("/")
   }
 
   return (
     <MainLayout>
-      <div className="container mx-auto px-4 py-6 max-w-md">
-        <h1 className="text-3xl md:text-4xl font-bold text-primary mb-6 text-center font-cal-sans">
-          LitpII
-        </h1>
+      <div className="container max-w-md mx-auto px-4 py-8">
+        <h1 className="text-3xl md:text-4xl font-bold text-primary mb-6 text-center font-cal-sans">LitpII</h1>
         <NavigationTabs />
       </div>
     </MainLayout>
-  );
+  )
 }
