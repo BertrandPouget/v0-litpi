@@ -1,42 +1,24 @@
-<h1>
-  <img
-    src="public/favicon.png"
-    alt="Litpi Logo"
-    width="64"
-    align="absmiddle"
-  />
-  LitpII – Modern Household Management App
-</h1>
+# LitpII
 
-A modern, responsive web application built with Next.js for managing household tasks, expenses, and shopping lists. Designed specifically for the Lippi household with a gamified approach to chore management.
+**LitpII** è una web app semplice per gestire attività domestiche, lista della spesa e debiti tra coinquilini.
 
-## ✨ Features
+L’app non usa un database: salva tutto in file CSV dentro il repository GitHub, così i dati restano sempre sincronizzati e facilmente consultabili.
 
-### 🎯 **Core Functionality**
-- **Character Selection**: Choose your household member avatar (Andrea, Marco, Martino)
-- **Task Management**: Track and complete household chores with point scoring
-- **Debt Tracking**: Manage shared expenses and IOUs between household members
-- **Shopping Lists**: Collaborative shopping list management
-- **Real-time Updates**: All data synced via GitHub CSV files
+## Funzionalità
+- **Attività (Chores):** aggiunta, completamento e storico delle attività.  
+- **Shopping:** lista condivisa di articoli da acquistare.  
+- **Debiti:** registrazione e aggiornamento dei debiti tra utenti.
 
-### 🎮 **Gamification**
-- **Point System**: Earn points for completing chores
-- **Leaderboard**: Real-time scoring and rankings
-- **History Tracking**: View last 10 completed tasks with timestamps
-- **Undo Functionality**: Remove incorrect entries from history
+## Come funziona
+L’app è sviluppata con **Next.js**.  
+Ogni azione degli utenti aggiorna automaticamente i file CSV presenti nella cartella `data/`.
 
-### 📱 **Mobile-First Design**
-- **Responsive Layout**: Optimized for mobile devices
-- **Touch-Friendly**: Large buttons and intuitive gestures
-- **Vertical Layout**: Perfect for smartphone usage
-- **Scrollable Lists**: Smooth scrolling for long lists
+## Sviluppo
+Per avviare il progetto in locale:
 
-## 🛠️ Tech Stack
+```bash
+pnpm install
+pnpm dev
+```
 
-- **Framework**: [Next.js 15](https://nextjs.org/) with App Router
-- **Language**: TypeScript
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **UI Components**: [shadcn/ui](https://ui.shadcn.com/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Data Storage**: GitHub CSV files
-- **Deployment**: [Vercel](https://vercel.com/)
+È necessario un token GitHub con permessi di lettura e scrittura sui contenuti del repo.
